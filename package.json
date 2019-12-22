@@ -1,0 +1,29 @@
+{
+  "name": "sharemusic",
+  "version": "1.1.0",
+  "description": "Share music through telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "now-start": "cross-env NODE_ENV=production node index.js",
+    "watch": "cross-env NODE_ENV=development nodemon index.js",
+    "deploy:now": "cross-env NODE_ENV=production now -e BOT_TOKEN=@sharemusic-tg-token -e SPOTIFY_CLIENT_ID=@spotify-client-id -e SPOTIFY_CLIENT_SECRET=@spotify-client-secret --public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Esen <s7b5en@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "node-fetch": "^2.2.0",
+    "spotify-web-api-node": "^3.1.1",
+    "telegraf": "^3.23.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.7",
+    "now": "^12.1.12",
+    "prettier": "^1.15.3"
+  }
+}
