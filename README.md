@@ -1,3 +1,5 @@
+![Demo](demo.gif)
+
 # cithara-bot
 A telegram bot for finding music on Apple Music, Spotify and Deezer
 
