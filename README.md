@@ -1,4 +1,4 @@
-![Demo](demo.gif)
+<img src="demo.gif" height="250" >
 
 # cithara-bot
 A telegram bot for finding music on Apple Music, Spotify and Deezer
